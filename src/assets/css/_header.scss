@@ -1,0 +1,31 @@
+.wide_header {border-bottom: 1px solid #eee; width: 100%; background:#fff}
+.header {width: 1000px; height: auto; margin:0 auto;}
+.header h1 {width: 287px;height: 51px; margin-top: 25px; float: left }
+.header h1 a {background-image: url(../images/logo_gabinet.png); width: 287px;height: 51px; display:block; background-repeat: no-repeat }
+.header .box_header_right {float: right; width: 691px;margin-top: 25px;}
+.header .box_header_right ul.mini_menu { float: right; }
+.header .box_header_right ul.mini_menu li {float: left; padding-left: 8px; }
+.header .box_header_right ul.mini_menu li a {font-size: 12px; color: #0e0e0e; text-decoration: none; font-family: PTSansRegular}
+.header .box_header_right ul.mini_menu li a:hover {color: #3b5997}
+.header .box_header_right ul.mini_menu li.tel_img {background-image: url(../images/tel.jpg); padding-left: 21px; background-repeat: no-repeat;font-size: 12px; color: #0e0e0e; text-decoration: none; font-family: PTSansRegular}
+.header .box_header_right ul.mini_menu li a.wizyta_img {background-image: url(../images/wizyta_img.png); padding-left: 21px; background-repeat: no-repeat;background-position: 0 -2px}
+ .header .box_header_right ul.mini_menu li a.youtube_img {background-image: url(../images/youtube.jpg); background-position: right 0; width: 38px; height: 17px; padding-right:39px;background-repeat: no-repeat; }
+ 
+.header .box_header_right ul.menu_nav {margin-top: 12px;float: right;height:40px;margin-bottom:4px}
+.header .box_header_right ul.menu_nav li {float: left; margin-left: 17px;height:40px}
+.header .box_header_right ul.menu_nav li a {
+    color: #010101;
+    display: block;
+    font-family: cuprum;
+    font-size: 21px;
+ 
+    text-decoration: none;
+}
+.header .box_header_right ul.menu_nav li a:hover {color: #3b5997}
+.header .box_header_right ul.menu_nav li a.activ {border-bottom: 3px solid;
+    color: #3B5997;
+    padding-bottom: 9px;}
+.header .box_header_right ul.menu_nav li.current_page_item  a {border-bottom: 3px solid;
+    color: #3B5997;
+    padding-bottom: 9px;}
+.header .box_header_right ul.menu_nav li a.none_pad {padding-right: 0}

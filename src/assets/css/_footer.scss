@@ -1,0 +1,18 @@
+#footer {border-top: 1px solid #eee; padding-top:10px;/*float: left*/; width: 100%; height: auto; padding-bottom: 25px;}
+#footer .content_footer {margin: 0 auto; width: 1000px; height: auto}
+#footer .content_footer .mini_logo {float: left; margin-top: 20px; width: 700px}
+#footer .content_footer .mini_logo a.img_mini_logo {background: url(../images/mini_logo.png); background-repeat: no-repeat; width:120px; height: 22px ; float: left; display: block; background-position: 0px 0px; margin-right: 20px;}
+#footer .content_footer .mini_logo p {float: left;font-family: Arial; font-size: 11px; color: #888; }
+#footer .content_footer a.made_by {background-image: url(../images/design_by.png); background-repeat: no-repeat;float: right; width: 145px;height: 16px;display: block;margin-top: 20px; float: right}
+#footer .content_footer .mini_logo p a {color: #3B5997}
+
+
+#footer p.madeby {
+    float: right;
+    padding-top:20px;
+}
+#footer p.madeby a {
+    color: #3B5997;
+    font-family:arial;
+    font-size:11px
+}

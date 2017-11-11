@@ -1,0 +1,19 @@
+.big_img_ban {width: 100%; background:#f9f9f9; height: 340px;border-bottom:1px solid #eee;overflow:hidden }
+.big_img_ban .center_img_text {margin: 0 auto; width: 1000px; height: 350px; position: relative}
+.big_img_ban .center_img_text .img_background {width: 649px; height: 358px; background-image: url(../images/img_background.png);background-repeat: no-repeat; position: absolute; right:-100px; bottom: 0px; float: right; z-index: 1}
+.big_img_ban .center_img_text .cytat_text {float: left; width: 570px; height:auto; /*background-image: url(../images/cytat_text.jpg);background-repeat: no-repeat;*/ margin-top: 60px; z-index: 2; position: relative}
+
+.big_img_ban .center_img_text .cytat_text h2 {
+    color: #000000;
+    font-family: cuprum;
+    font-size: 31px;
+    line-height: 33px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.big_img_ban .center_img_text .cytat_text .button {margin-top:30px}
+.big_img_ban .center_img_text .cytat_text p {text-align: left;color: #848484; font-family:'PTSerifRegular'; font-size: 15px; }
+.big_img_ban .center_img_text .cytat_text a.button1 {width: 281px; height: 68px; float: left;display: block; background: url("../images/buttons.png") no-repeat scroll -14px -9px transparent;}
+.big_img_ban .center_img_text .cytat_text a.button2 {width: 285px; height: 68px; float: right;display: block; background: url("../images/buttons.png") no-repeat scroll -296px -9px transparent;}
+.big_img_ban .center_img_text .cytat_text a.button1:hover {background: url("../images/buttons.png") no-repeat scroll -14px -86px transparent;}
+.big_img_ban .center_img_text .cytat_text a.button2:hover {background: url("../images/buttons.png") no-repeat scroll -296px -86px transparent;}

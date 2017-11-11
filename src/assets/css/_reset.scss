@@ -1,0 +1,26 @@
+*{margin:0;padding:0px}
+html,body{height:100%}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-weight:inherit;vertical-align:baseline;margin:0;padding:0}
+body{line-height:1.5;font-size:11px;font-family:Verdana, Arial, Helvetica, sans-serif;text-align:center;background:#fff;color:#444}
+table{border-spacing:0;border-collapse:collapse}
+caption,th,td{font-weight:400;text-align:left}
+table,td,th{vertical-align:middle}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{quotes:"" ""}
+input[type="radio"] { vertical-align: text-bottom}
+input[type="checkbox"] { vertical-align: middle}
+.ie7 input[type="checkbox"] { vertical-align: baseline}
+.ie6 input { vertical-align: text-bottom}
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer}
+input:focus {outline:none}
+input{font-family:arial}
+pre, code, kbd, samp { font-family: monospace, sans-serif}
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer}
+button {  width: auto; overflow: visible}
+button, input[type="checkbox"], input[type="radio"], input[type="reset"], input[type="submit"] {padding:1px}
+img {vertical-align: bottom}
+blockquote p:before, blockquote p:after, q:before, q:after {content: ''}
+a b {font-weight:bold}
+a:hover {text-decoration:underline}
+a img {border:none}
+ul {list-style:none}
