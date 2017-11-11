@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% set title = title|default("") %}
+{% import "content.html" as macro %}
+
+{% block content %}
+<div id="main_content" class="clearfix">
+    {% include "sidebar.html" %}
+    {{ macro.content(title, pageContent) }}
+</div>
+{% endblock %}

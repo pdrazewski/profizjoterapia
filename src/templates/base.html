@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" {% if root %}class="{{root}}"{% endif %}>
+<head>
+  	<meta charset="UTF-8"> 
+  	<title>Gabinet rehabilitacji, masażu i fizjoterapii &#8211; Katowice.</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+  	<link rel="stylesheet" href="assets/css/style.css">
+  	{% include "_common/meta.html" %}
+</head>
+<body {% if pageType %}class="{{pageType}}"{% endif %}>
+	<div class="b-mainWrapper">
+		{% include "_common/header.html" %}
+		<div class="b-mainContent">
+			{% block content %} {% endblock %} 
+		</div>
+		{% include "_common/footer.html" %} 
+	</div>
+  	{% include "_common/scripts.html" %}
+</body>
+</html>

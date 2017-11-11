@@ -1,0 +1,12 @@
+{% macro content (title, content) %}
+<div class="main_col">
+    <div>
+        <h2 class="entry-title">{{ title }}</h2>
+        <div class="entry-content">
+            {{ content|safe }}
+        </div>
+    </div>
+</div>
+{% endmacro %}
+
+

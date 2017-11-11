@@ -1,0 +1,18 @@
+{% extends "page.html" %}
+
+{% set title = "Mapa strony" %}
+
+{% set pageContent %}
+    <ul>
+    	<li>
+    		<a href="/cookies.html">Informacja o cookies</a>
+    	</li>
+    	<li>
+    		<a href="/sitemap.html">Mapa strony</a>
+    	</li>
+    	<li>
+    		<a href="/gallery.html">Galeria zdjęć</a>
+    	</li>
+    	{% include "menu.html" %}
+    </ul>
+{% endset %}
