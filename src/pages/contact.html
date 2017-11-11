@@ -5,3 +5,7 @@
 {% set pageContent %}
 	{{ data.pages.contact.content|safe }}
 {% endset %}
+
+{% block scripts %}
+<script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyA0tGWGtm7j8tuIV5UxEtLfHatIlVn03VQ&callback=initMap" async defer></script>
+{% endblock %}
