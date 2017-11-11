@@ -7,6 +7,7 @@ const nunjucksRender = require('gulp-nunjucks-render');
 const fs = require('fs')
 const minify = require('gulp-minify');
 const clean = require('gulp-clean');
+const htmlmin = require('gulp-htmlmin');
 
 /* settings */
 
@@ -21,10 +22,6 @@ const settings = {
       errLogToConsole: true,
       outputStyle: 'compressed'
     }
-  },
-  fonts: {
-    input: ['./src/assets/fonts/*'],
-    output: './dist/assets/fonts'
   },
   images: {
     input: ['./src/assets/images/**/*'],
@@ -84,6 +81,10 @@ gulp.task('compile', function() {
     .src(settings.render.input)
     .pipe(nunjucksRender({
       path: settings.render.partials,
+      envOptions: {
+        trimBlocks: true,
+        lstripBlocks: true
+      },
       manageEnv: function(env){
         env.addGlobal('data', JSON.parse(fs.readFileSync(settings.render.data)));
       }
@@ -95,12 +96,6 @@ gulp.task('copyJsLibs', function() {
     gulp
       .src(settings.js.libs.input)
       .pipe(gulp.dest(settings.js.libs.output))
-})
-
-gulp.task('copyFonts', function() {
-    gulp
-      .src(settings.fonts.input)
-      .pipe(gulp.dest(settings.fonts.output))
 })
 
 gulp.task('copyImages', function() {
@@ -121,6 +116,12 @@ gulp.task('minifyApp', function() {
       .pipe(gulp.dest(settings.js.app.output))
 });
 
+gulp.task('minifyHtml', function() {
+  return gulp.src('dist/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('dist'));
+});
+
 gulp.task('watch', function() {
   gulp.watch(settings.sass.input, ['sass'])
   gulp.watch(settings.render.watch, ['compile'])
@@ -135,7 +136,6 @@ gulp.task(
     'compile', 
     'copyImages', 
     'minifyApp', 
-    'copyJsLibs',
-    'copyFonts'
+    'copyJsLibs'
     ]
   );

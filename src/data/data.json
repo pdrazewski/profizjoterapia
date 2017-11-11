@@ -34,7 +34,7 @@
             },
             {
                 "name": "Galeria zdjęć",
-                "linl": "gallery"
+                "link": "gallery"
             }
         ]
     },
@@ -65,23 +65,38 @@
         },
         "contact": {
             "title": "Kontakt i lokalizacja",
-            "content": "<div class='data_ad'><p><strong>Gabinet Fizjoterapii</strong></p><p>ul. Rymarska 5</p><p>40-425 Katowice</p><p>e-mail: <a href='mailto:gabinet@piotr-kowalski.com'>gabinet@piotr-kowalski.com</a></p><p>tel. 501 157 739</p></div>"
+            "content": "<div class='data_ad'><p><strong>Gabinet Fizjoterapii</strong></p><p>ul. Rymarska 5</p><p>40-425 Katowice</p><p>e-mail: <a href='mailto:gabinet@piotr-kowalski.com'>gabinet@piotr-kowalski.com</a></p><p>tel. 501 157 739</p></div><div id='map'></div>"
         },
         "sitemap": {
-            "title": "",
-            "content": ""
+            "title": "Mapa strony"
         },
         "cookies": {
             "title": "Informacja o cookies",
             "content": "<p><strong>Informacje na temat plików cookies</strong><br>Aby strona mogła działać prawidłowo i zapewniała Ci największy komfort użytkowania naszego serwisu wykorzystywane są pliki cookies (ciasteczka).</p><p><strong>Czym są pliki cookies?</strong><br>Cookies to dane informatyczne. Podczas przeglądania niektórych stron internetowych przeglądarka zapisuje na twardym dysku Twojego komputera (lub innego urządzenia) małe pliki tekstowe.</p><p><strong>Do czego służa cookies?</strong><br>Cookies wykorzystywane są w celu dostosowania stron do preferencji użytkowników. Dzięki cookies strona pamięta na przykład czy jesteś zalogowany na danej witrynie, zapamiętuje zawartość koszyka lub ostatnio oglądane produkty. Pliki te pomagają też tworzyć statystyki, które wykorzystywane są między innymi do ulepszania stron i ich zawartości. Cookies wykorzystywane są również do celów reklamowych.</p><p><strong>Jakich cookies używamy?</strong><br>Używane są dwa rodzaje plików cookies – „stałe” lub sesyjne”. Pliki sesyjne to pliki tymczasowe, które znikają w momencie opuszczenia danej strony lub wyłączenia przeglądarki. Pliki stałe zapisywane są na urządzeniu przez czas jaki został określony w ustawieniach przeglądarki lub do momentu ręcznego usunięcia ich. Podczas przeglądania naszej strony również inne firmy mogą umieszczać na Twoim urządzeniu Pliki cookies. Pliki te są podobne do naszych plików jednak różnią się nazwą domeny.</p><p><strong>Blokowanie cookies</strong><br>Większość przeglądarek internetowych poinformuje Cię, w jaki sposób zablokować pliki cookies, jak usunąć te pliki, którą są już zapisane lub jak zdobyć informację o nowych plikach. Szczegółowe informacje znajdziesz w ustawieniach swojej przeglądarki. Musisz jednak pamiętać, że całkowite ich zablokowanie może utrudnić Ci korzystanie z większości witryn internetowych.</p><p><strong>Google Analytics – informacje</strong><br>Nasza strona korzysta z narzędzia Google Analitycs. Usługa ta używa plików cookies do badania sposobu w jaki użytkownicy korzystają z naszej strony. Zebrane informacje (takie jak adres IP, czas i data odwiedzin itp.) przesyłane są na serwery firmy Google i są na nich przechowywane. Dzięki temu Google sporządzi statystyki Twojej wizyty na naszej stronie, które pomogą nam w jak najlepszym dostosowaniu jej pod Twoje potrzeby</p>"
         },
         "gallery": {
-            "title": "",
-            "content": ""
+            "title": "Galeria zdjęć",
+            "content": [
+                {
+                    "img": "mg_4396"
+                },
+                {
+                    "img": "mg_4410"
+                },
+                {
+                    "img": "mg_4429"
+                },
+                {
+                    "img": "mg_4431"
+                },
+                {
+                    "img": "mg_7982"
+                }
+            ]
         },
         "book_visit": {
             "title": "Umów się na wizytę",
-            "content": "<p>Jeśli chcesz umówić się na wizytę – wypełnij poniższy formularz, opisz swój problem oraz zostaw swój adres e-mail oraz nr telefonu. Skontaktujemy się z Tobą.</p>"
+            "content": "<p>Jeśli chcesz umówić się na wizytę – napisz na <a href='mailto:gabinet@piotr-kowalski.com'>gabinet@piotr-kowalski.com</a>, opisz swój problem oraz zostaw swój nr telefonu. Skontaktujemy się z Tobą.</p>"
         }
     }
 }

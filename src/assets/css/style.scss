@@ -1,6 +1,5 @@
 @import '_reset';
 @import '_utils';
-@import '_fonts';
 
 body {background-color:#fff;font-family:arial}
 .fb_social {background: url("../images/facebook.png") no-repeat scroll left top transparent; display: block; height: 96px;position: fixed;right: 0;top: 150px;width: 36px;z-index: 10;}
@@ -10,7 +9,7 @@ a {color:#000; cursor:pointer; text-decoration: none}
 @import '_banner';
 @import '_content';
 @import '_footer';
-
+@import 'jquery.fancybox.scss';
 
 #main_content {width:1000px;margin:0 auto;background:#fff;padding-bottom:25px;margin-top:3px}
 .main_col {width:690px;text-align:left;margin:0 auto;font-family:arial;font-size:13px;padding:10px 0px;position:relative;float:right}
