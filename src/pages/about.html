@@ -1,30 +1,7 @@
 {% extends "page.html" %}
 
-{% set title = "O mnie" %}
+{% set title = data.pages.about.title %}
 
 {% set pageContent %}
-    <p style="padding-bottom:15px">Nazywam się Piotr Kowalski, jestem fizjoterapeutą, absolwentem <strong>Wydziału Fizjoterapii Akademii Wychowania Fizycznego w Katowicach, Wydziału Promocji Zdrowia Beskidzkiej Wyższej Szkoły Umiejętności w Żywcu oraz I Medycznego Studium im. Zofii Szlenkierówny w Katowicach.</strong></p>
-    <p style="padding-bottom:15px">Doświadczenie zawodowe zdobyłem podczas pracy w państwowych i prywatnych placówkach służby zdrowia a także w klubach sportowych ( piłka nożna, siatkówka, futsal ). Od 2009 roku prowadzę Prywatny Gabinet Fizjoterapii, zajmując się przede wszystkim tematyką rehabilitacji ortopedycznej i leczeniem funkcjonalnych zaburzeń układu ruchu.<br />
-Ciągle pogłębiam swoją wiedzę poprzez uczestnictwo w specjalistycznych kursach i szkoleniach z zakresu nowoczesnych metod fizjoterapii, związanych przede wszystkim z tematyką terapii manualnej oraz pracy z ciałem. </p>
-    <p style="padding-bottom:15px">Moje zainteresowania zawodowe koncentrują się wokół tematyki systemu mięśniowo-powięziowego oraz rehabilitacji pooperacyjnej.<br />
-    Prywatnie biegacz amator, fascynat aktywnych form spędzania wolnego czasu oraz obserwator świata.</p>
-    <p><strong>Ukończone szkolenia:</strong></p>
-    <ul>
-        <li>Manipulacje powięziowe – Fascial Manipulation</li>
-        <li>Łańcuchy Mięśniowe i Stawowe G.D.S.</li>
-        <li>Metoda CRAFTA Basic</li>
-        <li>Okluzja w ujęciu interdyscyplinarnym – lekarz dentysta-fizjoterapeuta</li>
-        <li>Uwalnianie Mięśniowo-Powięziowe &#8211; Obręcz Miednicza i Kończyna Dolna – dr. Robert Schleip</li>
-        <li>Techniki powięziowe i membranowe -Fascial and Membrane Technique-dr. Peter Schwind</li>
-        <li>Diagnozowanie i leczenie tkanek miękkich – dr. Jarosław Ciechomski</li>
-        <li>Specjalistyczny Kurs Funkcjonalnej Terapii Manualnej wg. Briana Mulligana</li>
-        <li>Kinesiotaping dla fizjoterapeutów MTC</li>
-        <li>Funkcjonalna terapia w urazach sportowych i innych</li>
-        <li>Medycyna i rehabilitacja sportowa</li>
-        <li>Nowoczesny trening motoryczny w grach zespołowych</li>
-        <li>Funkcjonalna ocena motoryczna oraz nowoczesny trening motoryczny we współczesnym sporcie</li>
-        <li>Łańcuchy Mięśniowe i Stawowe G.D.S – Skoliozy</li>
-        <li>Anatomia Palpacyjna</li>
-        <li>Haczykowanie  i techniki tkankowe LIP®, TIF®</li>
-    </ul>
+    {{ data.pages.about.content|safe }}
 {% endset %}

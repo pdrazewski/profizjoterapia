@@ -1,15 +1,5 @@
-<li>
-    <a href="/about.html">O mnie</a>
-</li>
-<li>
-    <a href="/cooperation.html">Współpraca</a>
-</li>
-<li>
-    <a href="/team.html">Zespół</a>
-</li>
-<li>
-    <a href="/therapy.html">Terapia</a>
-</li>
-<li>
-    <a href="/contact.html">Kontakt i lokalizacja</a>
-</li>
+{% for item in data.menu.main %}
+	<li>
+    	<a href="/{{item.link}}.html">{{item.name}}</a>
+	</li>
+{% endfor %}    

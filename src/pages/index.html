@@ -7,48 +7,27 @@
         <div class="img_background"></div>
         <div class="cytat_text">
             <div class="show_ban_txt">
-                <h2>„Rehabilitacja człowieka, jako całości, wymaga czegoś więcej niż przypadkowego rozciągania pewnych obszarów.”</h2>
-                <p>- Dr Ida P.Rolf</p>
+                {{ data.pages.homepage.quote|safe }}
             </div>  
             <div class="button clearfix">
                 <a class="button1" href="/therapy.html"></a>
                 <a class="button2" href="/book_visit.html"></a>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
 <div class="wrapper_wide clearfix">
     <div id="content" class="clearfix">   
-        <div class="left_text">                                            
-            <h3>Witam Państwa</h3>
-            <h4>
-                <strong>Nazywam się Piotr Kowalski, jestem fizjoterapeutą.</strong> 
-                Specjalizuję się w leczeniu dolegliwości bólowych narządu ruchu, rehabilitacji pourazowej i pooperacyjnej.
-            </h4>
-            <p>Jeżeli szukasz indywidualnej i skutecznej terapii, opartej o najnowsze metody fizjoterapeutyczne &#8211; zapraszam do współpracy.</p>
-            <img src="/assets/images/podpis.jpg" style="position:absolute; bottom:-60px;right:35px"  /> 
+        <div class="left_text">   
+            {{ data.pages.homepage.hello|safe }}                                         
         </div>
         <div class="middle_text">                                              
-            <h3>Co leczę</h3>
-            <p>Najczęściej zajmuję się zaburzeniami funkcjonalnymi narządu ruchu. Moje szczególne zainteresowanie wzbudzają wzajemne oddziaływania różnych tkanek, które są powodem powstawania dolegliwości bólowych narządu ruchu.<br />
-            Specjalizuję się w leczeniu:</p>
-            <ul>
-                <li class="no_padding text1">Dysfunkcji i rehabilitacji kręgosłupa</li>
-                <li class="text2">Dysfunkcji stawów obwodowych</li>
-                <li class="text4">Rehabilitacji stawu skroniowo-żuchwowego</li>
-                <li class="text3">Rehabilitacji pourazowej i pooperacyjnej</li>
-                <li class="none_line text4">Rehabilitacji urazów sportowych</li>
-            </ul>      
-            <a class="more_me" href="/about.html">Dowiedz się więcej +</a>
+            {{ data.pages.homepage.offer|safe }}
         </div>
-        <div class="right_contact1">                                            
-            <h3>Kontakt</h3>
-            <p>Tel. 501 157 739<br />
-                E-mail: <a href="mailto:gabinet@piotr-kowalski.com">gabinet@piotr-kowalski.com</a><br />
-                Adres: Katowice, ul. Rymarska 5
-            </p>          
-            {% include "map.html" %} 
+        <div class="right_contact1">   
+            {{ data.pages.homepage.contact|safe }}     
+            {% include "map.html" %}                                     
         </div>
-    </div>
+    </div> 
 </div>
 {% endblock %}

@@ -1,31 +1,7 @@
 {% extends "page.html" %}
 
-{% set title = "Informacja o cookies" %}
+{% set title = data.pages.cookies.title %}
 
 {% set pageContent %}
-	<p>
-		<strong>Informacje na temat plików cookies</strong><br>
-		Aby strona mogła działać prawidłowo i zapewniała Ci największy komfort użytkowania naszego serwisu wykorzystywane są pliki cookies (ciasteczka).
-	</p>
-	<p>
-		<strong>Czym są pliki cookies?</strong><br>
-		Cookies to dane informatyczne. Podczas przeglądania niektórych stron internetowych przeglądarka zapisuje na twardym dysku Twojego komputera (lub innego urządzenia) małe pliki tekstowe.
-	</p>
-	<p>
-		<strong>Do czego służa cookies?</strong><br>
-		Cookies wykorzystywane są w celu dostosowania stron do preferencji użytkowników. Dzięki cookies strona pamięta na przykład czy jesteś zalogowany na danej witrynie, zapamiętuje zawartość koszyka lub ostatnio oglądane produkty. Pliki te pomagają też tworzyć statystyki, które wykorzystywane są między innymi do ulepszania stron i ich zawartości. Cookies wykorzystywane są również do celów reklamowych.
-	</p>
-	<p>
-		<strong>Jakich cookies używamy?</strong><br>
-		Używane są dwa rodzaje plików cookies – „stałe” lub sesyjne”. Pliki sesyjne to pliki tymczasowe, które znikają w momencie opuszczenia danej strony lub wyłączenia przeglądarki. Pliki stałe zapisywane są na urządzeniu przez czas jaki został określony w ustawieniach przeglądarki lub do momentu ręcznego usunięcia ich. Podczas przeglądania naszej strony również inne firmy mogą umieszczać na Twoim urządzeniu Pliki cookies. Pliki te są podobne do naszych plików jednak różnią się nazwą domeny.
-	</p>
-	<p>
-		<strong>Blokowanie cookies</strong><br>
-		Większość przeglądarek internetowych poinformuje Cię, w jaki sposób zablokować pliki cookies, jak usunąć  te pliki, którą są już zapisane lub jak zdobyć informację o nowych plikach. Szczegółowe informacje znajdziesz w ustawieniach swojej przeglądarki. Musisz jednak pamiętać, że całkowite ich zablokowanie może utrudnić Ci korzystanie z większości witryn internetowych.
-	</p>
-	<p>
-		<strong>Google Analytics – informacje</strong><br>
-		Nasza strona korzysta z narzędzia Google Analitycs. Usługa ta używa plików cookies do badania sposobu w jaki użytkownicy korzystają z naszej strony.  Zebrane informacje (takie jak adres IP, czas i data odwiedzin itp.) przesyłane są na serwery firmy Google i są na nich przechowywane. Dzięki temu Google sporządzi statystyki Twojej wizyty na naszej stronie, które pomogą nam w jak najlepszym dostosowaniu jej pod Twoje potrzeby
-	</p>
-
+	{{ data.pages.cookies.content|safe }}
 {% endset %}

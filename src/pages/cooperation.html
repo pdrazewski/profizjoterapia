@@ -1,7 +1,7 @@
 {% extends "page.html" %}
 
-{% set title = "Współpraca" %}
+{% set title = data.pages.cooperation.title %}
 
 {% set pageContent %}
-    <p>Strona w przygotowaniu, zapraszam wkrótce</p>
+    {{ data.pages.cooperation.content|safe }}
 {% endset %}

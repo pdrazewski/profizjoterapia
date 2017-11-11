@@ -4,15 +4,11 @@
 
 {% set pageContent %}
     <ul>
-    	<li>
-    		<a href="/cookies.html">Informacja o cookies</a>
-    	</li>
-    	<li>
-    		<a href="/sitemap.html">Mapa strony</a>
-    	</li>
-    	<li>
-    		<a href="/gallery.html">Galeria zdjęć</a>
-    	</li>
+        {% for item in data.menu.additional %}
+            <li>
+                <a href="/{{item.link}}.html">{{item.name}}</a>
+            </li>
+        {% endfor %} 
     	{% include "menu.html" %}
     </ul>
-{% endset %}
+{% endset %} 

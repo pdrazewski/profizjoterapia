@@ -1,13 +1,7 @@
 {% extends "page.html" %}
 
-{% set title = "Kontakt i lokalizacja" %}
+{% set title = data.pages.contact.title %}
 
 {% set pageContent %}
-	<div class="data_ad">
-		<p><strong>Gabinet Fizjoterapii</strong></p>
-		<p>ul. Rymarska 5</p>
-		<p>40-425 Katowice</p>
-		<p>e-mail: <a href="mailto:gabinet@piotr-kowalski.com">gabinet@piotr-kowalski.com</a></p>
-		<p>tel. 501 157 739</p>
-	</div>
+	{{ data.pages.contact.content|safe }}
 {% endset %}

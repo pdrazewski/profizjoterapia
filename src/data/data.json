@@ -1,32 +1,87 @@
 {
-    "core": {
-        "title": "CamperCSS src",
-        "link": "/",
-        "header": {
-            "attr": "",
-            "order": 1,
-            "primary": {
-                "active": 1,
-                "order": 1,
-                "core": ["wide"],
-                "wrapped": ["wrapped", "logo", "cartQuick", "search", "additionals"]
+    "title": "Gabinet rehabilitacji, masażu i fizjoterapii &#8211; Katowice.",
+    "menu": {
+        "main": [
+            {
+                "name": "O mnie",
+                "link": "about"
             },
-            "secondary": {
-                "active": 1,
-                "order": 1,
-                "core": [],
-                "wrapped": ["menu"]
+            {
+                "name": "Współpraca",
+                "link": "cooperation"
+            },
+            {
+                "name": "Zespół",
+                "link": "team"
+            },
+            {
+                "name": "Terapia",
+                "link": "therapy"
+            },
+            {
+                "name": "Kontakt i lokalizacja",
+                "link": "contact"
             }
+        ],
+        "additional": [
+            {
+                "name": "Informacje o cookies",
+                "link": "cookies"
+            },
+            {
+                "name": "Mapa strony",
+                "link": "sitemap"
+            },
+            {
+                "name": "Galeria zdjęć",
+                "linl": "gallery"
+            }
+        ]
+    },
+    "footer": "<a class='img_mini_logo' href='/' title='Gabinet fizjoterapii'></a> <p>Copyright &copy; 2009-2012 Piotr Kowalski - Gabinet Fizjoterapii. Wszystkie prawa zastrzeżone</p><p>Korzystając z tej strony wyrażasz zgodę na wykorzystywanie plików cookie. <a href='/cookies.html'>Dowiedz się więcej o plikach cookie</a></p>",
+    "header": "<ul class='mini_menu'> <li class='tel_img'>501-157-739</li><li><a class='wizyta_img' href='/book_visit.html'>Umów się na wizytę</a></li><li class='sep'>|</li><li><a href='/sitemap.html'>Mapa strony</a></li></ul> ",
+    "pages": {
+        "homepage": {
+            "quote": "<h2>„Rehabilitacja człowieka, jako całości, wymaga czegoś więcej niż przypadkowego rozciągania pewnych obszarów.”</h2><p>- Dr Ida P.Rolf</p>",
+            "hello": "<h3>Witam Państwa</h3> <h4> <strong>Nazywam się Piotr Kowalski, jestem fizjoterapeutą.</strong> Specjalizuję się w leczeniu dolegliwości bólowych narządu ruchu, rehabilitacji pourazowej i pooperacyjnej. </h4> <p>Jeżeli szukasz indywidualnej i skutecznej terapii, opartej o najnowsze metody fizjoterapeutyczne &#8211; zapraszam do współpracy.</p><img src='/assets/images/podpis.jpg' style='position:absolute; bottom:-60px;right:35px'/>",
+            "offer": "<h3>Co leczę</h3> <p>Najczęściej zajmuję się zaburzeniami funkcjonalnymi narządu ruchu. Moje szczególne zainteresowanie wzbudzają wzajemne oddziaływania różnych tkanek, które są powodem powstawania dolegliwości bólowych narządu ruchu.<br/> Specjalizuję się w leczeniu:</p><ul> <li class='no_padding text1'>Dysfunkcji i rehabilitacji kręgosłupa</li><li class='text2'>Dysfunkcji stawów obwodowych</li><li class='text4'>Rehabilitacji stawu skroniowo-żuchwowego</li><li class='text3'>Rehabilitacji pourazowej i pooperacyjnej</li><li class='none_line text4'>Rehabilitacji urazów sportowych</li></ul> <a class='more_me' href='/about.html'>Dowiedz się więcej +</a>",
+            "contact": "<h3>Kontakt</h3> <p>Tel. 501 157 739<br/> E-mail: <a href='mailto:gabinet@piotr-kowalski.com'>gabinet@piotr-kowalski.com</a><br/> Adres: Katowice, ul. Rymarska 5 </p>"
         },
-        "footer": {
-            "outsideWrapper": 0,
-            "wrapperClass": " ",
-            "attr": "",
-            "active": 1,
-            "order": 1,
-            "core": [],
-            "wrapped": ["footer", "copyrights", "bottom"],
-            "afterFooter": []
+        "about": {
+            "title": "O mnie",
+            "content": "<p style='padding-bottom:15px'>Nazywam się Piotr Kowalski, jestem fizjoterapeutą, absolwentem <strong>Wydziału Fizjoterapii Akademii Wychowania Fizycznego w Katowicach, Wydziału Promocji Zdrowia Beskidzkiej Wyższej Szkoły Umiejętności w Żywcu oraz I Medycznego Studium im. Zofii Szlenkierówny w Katowicach.</strong></p><p style='padding-bottom:15px'>Doświadczenie zawodowe zdobyłem podczas pracy w państwowych i prywatnych placówkach służby zdrowia a także w klubach sportowych ( piłka nożna, siatkówka, futsal ). Od 2009 roku prowadzę Prywatny Gabinet Fizjoterapii, zajmując się przede wszystkim tematyką rehabilitacji ortopedycznej i leczeniem funkcjonalnych zaburzeń układu ruchu.<br />Ciągle pogłębiam swoją wiedzę poprzez uczestnictwo w specjalistycznych kursach i szkoleniach z zakresu nowoczesnych metod fizjoterapii, związanych przede wszystkim z tematyką terapii manualnej oraz pracy z ciałem. </p><p style='padding-bottom:15px'>Moje zainteresowania zawodowe koncentrują się wokół tematyki systemu mięśniowo-powięziowego oraz rehabilitacji pooperacyjnej.<br />Prywatnie biegacz amator, fascynat aktywnych form spędzania wolnego czasu oraz obserwator świata.</p><p><strong>Ukończone szkolenia:</strong></p><ul><li>Manipulacje powięziowe – Fascial Manipulation</li><li>Łańcuchy Mięśniowe i Stawowe G.D.S.</li><li>Metoda CRAFTA Basic</li><li>Okluzja w ujęciu interdyscyplinarnym – lekarz dentysta-fizjoterapeuta</li> <li>Uwalnianie Mięśniowo-Powięziowe &#8211; Obręcz Miednicza i Kończyna Dolna – dr. Robert Schleip</li><li>Techniki powięziowe i membranowe -Fascial and Membrane Technique-dr. Peter Schwind</li><li>Diagnozowanie i leczenie tkanek miękkich – dr. Jarosław Ciechomski</li><li>Specjalistyczny Kurs Funkcjonalnej Terapii Manualnej wg. Briana Mulligana</li><li>Kinesiotaping dla fizjoterapeutów MTC</li><li>Funkcjonalna terapia w urazach sportowych i innych</li><li>Medycyna i rehabilitacja sportowa</li><li>Nowoczesny trening motoryczny w grach zespołowych</li><li>Funkcjonalna ocena motoryczna oraz nowoczesny trening motoryczny we współczesnym sporcie</li><li>Łańcuchy Mięśniowe i Stawowe G.D.S – Skoliozy</li><li>Anatomia Palpacyjna</li><li>Haczykowanie  i techniki tkankowe LIP®, TIF®</li></ul>" 
+        },
+        "cooperation": {
+            "title": "Współpraca",
+            "content": "<p>Strona w przygotowaniu, zapraszam wkrótce</p>"
+        },
+        "team": {
+            "title": "Zespół",
+            "content": "<h3 style='color: #888888;font-family: times new roman; font-size: 21px;font-style: oblique; font-weight: normal;line-height: 25px; padding-bottom: 20px;'> Pomocną dłoń znajdziesz zawsze na końcu ręki. Ufaj sobie. Swojej wiedzy, doświadczeniu i intuicji. Tylko ufając sobie będziesz mógł zaufać innym.” </h3><p>Zespół tworzą</p><table style='margin-top:10px'><tr><td style='padding-bottom:10px'><img src='/assets/images/piotr11.jpg' alt='piotr' width='308' height='412' class='alignnone size-full wp-image-111'/></td><td style='padding:20px'><b>Piotr Kowalski – właściciel.</b><p> Więcej w zakładce <a href='/?page_id=2'>O mnie</a></td></tr><tr><td style='padding-bottom:10px'><img src='/assets/images/marcin1.jpg' alt='Marcin' width='308' height='412' class='alignnone size-full wp-image-111'/></td><td style='padding:20px'><b>Marcin Bogacki – fizjoterapeuta.</b><p>Ukończyłem studia licencjackie na kierunku Fizjoterapii w GWSH w Katowicach oraz Zarządzanie w Fizjoterapii i Sporcie Osób Niepełnosprawnych na AWF w Katowicach. Od 2008 roku pracuję w poradni rehabilitacyjnej w Katowicach, od 2014 roku jestem fizjoterapeutą drużyny futsal ekstraklasy AZS UŚ Katowice.</p><p>Ukończone szkolenia:<br/>- Kurs Współczesnych Metod Diagnostyki i Leczenie Tkanek Miękkich: <br/>1. Techniki Energizacji Mięśni cz.1<br/>2. Techniki Energizacji Mięśni cz.2<br/>3. Mięśniowo &#8211; powięziowe rozluźnianie (Myofascial Release)<br/>4. Technika Aktywnego Rozluźniania (Active Release Technique)<br/>5. Dysbalans mięśniowo-powięziowy<br/>6. Szkolenie rozszerzające terapię punktów spustowych<br/>- Kurs Masażu Klasycznego<br/>- Kurs Masażu Leczniczego<br/>- Kurs Masażu Sportowego<br/>- Kurs Masażu Kamieniami</p></td></tr></table>"
+        },
+        "therapy": {
+            "title": "Terapia",
+            "content": "<p><strong>Jak Leczymy ?</strong><br>&nbsp;<br>Stosujemy bezpieczne i efektywne techniki z zakresu terapii manualnej przede wszystkim skupiając uwagę na systemie mięśniowo-powięziowym. Terapia prowadzona jest w oparciu o dokładną analizę układu ruchu i postawy pacjenta.<br>Przebieg sesji dopasowany jest indywidualnie do potrzeb pacjenta. Każda wizyta trwa około jednej godziny i łączy w sobie pracę manualna oraz specjalistyczne ćwiczenia.<br>&nbsp;&nbsp;<br><strong>Co Leczymy?</strong></p><ul><li>Bóle kręgosłupa i stawów obwodowych (np. rwa kulszowa, dyskopatia, rwa barkowa, łokieć tenisisty, zespół cieśni nadgarstka, zmiany degeneracyjne stawów)</li><li>Urazy i przeciążenia sportowe</li><li>Bóle głowy i zawroty głowy pochodzenia szyjnego</li><li>Dolegliwości stawu skroniowo – żuchwowego</li></ul><p>&nbsp;<br>&nbsp;<br><strong>Zajmujemy się specjalistyczną rehabilitacją po zabiegach ortopedycznych takich jak:</strong></p><ul><li>zabiegi kręgosłupa ( np. nukleoplastyka, mikrodiscektomia, nukleotomia, endoskopowe leczenie dyskopatii, DIAM )</li><li>artroskopia ( np. stawu kolanowego, stawu barkowego, stawu biodrowego, stawu skokowego )</li><li>rekonstrukcje więzadłowe (stawu kolanowego – ACL, PCL, MCL; stawu barkowego – naprawa obrąbka, stożka rotatorów; niestabilności stawu skokowego)</li><li>endoprotezoplastyka ( stawu biodrowego , stawu kolanowego, stawu barkowego)</li><li>repozycje złamań</li></ul>"
+        },
+        "contact": {
+            "title": "Kontakt i lokalizacja",
+            "content": "<div class='data_ad'><p><strong>Gabinet Fizjoterapii</strong></p><p>ul. Rymarska 5</p><p>40-425 Katowice</p><p>e-mail: <a href='mailto:gabinet@piotr-kowalski.com'>gabinet@piotr-kowalski.com</a></p><p>tel. 501 157 739</p></div>"
+        },
+        "sitemap": {
+            "title": "",
+            "content": ""
+        },
+        "cookies": {
+            "title": "Informacja o cookies",
+            "content": "<p><strong>Informacje na temat plików cookies</strong><br>Aby strona mogła działać prawidłowo i zapewniała Ci największy komfort użytkowania naszego serwisu wykorzystywane są pliki cookies (ciasteczka).</p><p><strong>Czym są pliki cookies?</strong><br>Cookies to dane informatyczne. Podczas przeglądania niektórych stron internetowych przeglądarka zapisuje na twardym dysku Twojego komputera (lub innego urządzenia) małe pliki tekstowe.</p><p><strong>Do czego służa cookies?</strong><br>Cookies wykorzystywane są w celu dostosowania stron do preferencji użytkowników. Dzięki cookies strona pamięta na przykład czy jesteś zalogowany na danej witrynie, zapamiętuje zawartość koszyka lub ostatnio oglądane produkty. Pliki te pomagają też tworzyć statystyki, które wykorzystywane są między innymi do ulepszania stron i ich zawartości. Cookies wykorzystywane są również do celów reklamowych.</p><p><strong>Jakich cookies używamy?</strong><br>Używane są dwa rodzaje plików cookies – „stałe” lub sesyjne”. Pliki sesyjne to pliki tymczasowe, które znikają w momencie opuszczenia danej strony lub wyłączenia przeglądarki. Pliki stałe zapisywane są na urządzeniu przez czas jaki został określony w ustawieniach przeglądarki lub do momentu ręcznego usunięcia ich. Podczas przeglądania naszej strony również inne firmy mogą umieszczać na Twoim urządzeniu Pliki cookies. Pliki te są podobne do naszych plików jednak różnią się nazwą domeny.</p><p><strong>Blokowanie cookies</strong><br>Większość przeglądarek internetowych poinformuje Cię, w jaki sposób zablokować pliki cookies, jak usunąć te pliki, którą są już zapisane lub jak zdobyć informację o nowych plikach. Szczegółowe informacje znajdziesz w ustawieniach swojej przeglądarki. Musisz jednak pamiętać, że całkowite ich zablokowanie może utrudnić Ci korzystanie z większości witryn internetowych.</p><p><strong>Google Analytics – informacje</strong><br>Nasza strona korzysta z narzędzia Google Analitycs. Usługa ta używa plików cookies do badania sposobu w jaki użytkownicy korzystają z naszej strony. Zebrane informacje (takie jak adres IP, czas i data odwiedzin itp.) przesyłane są na serwery firmy Google i są na nich przechowywane. Dzięki temu Google sporządzi statystyki Twojej wizyty na naszej stronie, które pomogą nam w jak najlepszym dostosowaniu jej pod Twoje potrzeby</p>"
+        },
+        "gallery": {
+            "title": "",
+            "content": ""
+        },
+        "book_visit": {
+            "title": "Umów się na wizytę",
+            "content": "<p>Jeśli chcesz umówić się na wizytę – wypełnij poniższy formularz, opisz swój problem oraz zostaw swój adres e-mail oraz nr telefonu. Skontaktujemy się z Tobą.</p>"
         }
     }
 }
